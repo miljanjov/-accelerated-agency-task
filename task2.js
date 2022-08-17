@@ -4,16 +4,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const cardIconsElement = document.createElement("img");
 
-    cardIconsElement.setAttribute("class", "card__icons");
     cardIconsElement.src =
       "https://res.cloudinary.com/da04dgows/image/upload/v1659102874/tasks/payment_method_gduu19.png";
 
     cartDrawerButton.appendChild(cardIconsElement);
 
+    cardIconsElement.style = `width: 100%;`;
   }, 200);
 });
-
-
-.card__icons {
-	width: 100%;
-}
